@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>diseños</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/iconos.css">
+	<link rel="stylesheet" type="text/css" href="css/iconos2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+			
+		<nav>
+			<div id="nav_center">
+				<img src="imagenes/logo2.png" id="logo">	
+				<div id="botones_center">			
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Planes</a></li>
+						<li><a href="diseños.html">Diseños</a></li>
+						<li><a href="nosotros.html">Nosotros</a></li>
+						<li><a href="#">Trabajos</a></li>
+						<li><a href="contacto.html">Contacto</a></li>	
+						<li><a href="contratanos.html" id="botonPrincipal">Contratanos</a></li>
+						<li><a href="#" id="tema" onclick="elegirTema()">Cambiar a tema oscuro</a></li>			
+					</ul>
+				</div>
+			</div>
+		</nav>
+			
+	</header>
+	<div id="color_0">
+		<section id="sec_1" class="sec_1_dis">
+			<div id="cont_video">
+				<video src="videos/publi.mp4" id="publi"></video>
+			</div>
+			<nav id="botonera_vid">
+				<ul>
+					<li><a href="#" id="play"><span class="icon-play3"></span></a></li>
+					<li><a href="#" id="retroceder" onclick="saltar(-5)"><span class="icon-backward2"></span></a></li>
+					<li><a href="#" id="adelantar"><span class="icon-forward3" onclick="saltar(5)"></span></a></li>
+					<li><a href="#" id="stop"><span class="icon-stop2"></span></a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<section id="sec_2">
+			<div class="cent_1">
+				<h2>¿Que hacemos?</h2>
+				<p>Nuestros diseñadores y especialistas de marketing tomaran el control de tus redes sociales, administrandolas, mejorandolas y logrando que estas alcancen un publico mayor y real. Aumentando tus ventas y personalizando y fijando una imagen de tu marca en la cabeza de tus clientes.</p>
+			</div>
+		</section>
+
+		<div class="color_2">
+			<section class="baners">
+
+				<div class="ban_txt">
+					<div class="texto">
+						<h2>¿Como funciona?</h2>
+						<p>Nuestra empresa cuenta con dos tipos de crecimiento, organico en donde la gente sigue por si sola a la pagina e inorganico o pago donde tu negocio llega a muchas mas personas pero los seguidores son menos activos</p>
+						<a href="#">Saber más <span class="icon-forward"></span></a>
+					</div>
+				</div>
+
+				<div class="ban_img">
+					<svg id="dibujo">
+						<rect width="400px" height="250px" stroke="#767b82" stroke-width="12" fill="black" x="90" y="50" rx="33" ry="100"></rect>
+						<text x="120" y="290" fill="none" stroke="white" stroke-width="2" style="font-size: 40px" id="nosignal"> NO SIGNAL <animate attributeType="XML" attributeName="stroke" dur="10s" repeatCount="indefinite" from="white"  to="green"></animate></text>
+						<!-- <circle stroke="yellow" stroke-width="12" fill="blue" r="200" cx="200" cy="400"></circle> -->
+						<path d="M 150 380 C 250 250 350 300 410 380" stroke="#767b82" stroke-width="12" fill="none"></path>
+						su navegador no sporta SVG :/
+					</svg>
+				</div>
+			</section>
+		</div>
+
+		<div class="color_3">
+			<section class="baners">
+				<div class="ban_img cent_ban_img">
+					<canvas id="canvas1" width="400" height="450">
+						<p>Tu navegador no soporta canvas</p>
+					</canvas>
+				</div>
+				<div class="color">
+					<div class="ban_txt">
+						<div class="texto">
+							<h2>¿Que opciones hay?</h2>
+							<p>Cada emprendimiento es muy especial y personal por lo que tenemos distintos planes para los distintos tipos de emprendimeintos</p>
+							<a href="#">Saber más <span class="icon-forward"></span></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div class="color_4">
+			<section id="sec_3">
+				<div class="title">
+				 	<h2>servicios que ofrecemos</h2> 
+				</div>
+
+				<div id="col_1">
+					<img src="imagenes/circulo.png">
+					<h3>¿Dónde puedo conseguirlo?</h3>
+					<p>disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor</p>
+					<a href="#">Leer más <span class="icon-forward"></span></a>
+				</div>
+
+				<div class="col_2">
+					<img src="imagenes/circulo.png">
+					<h3>¿Dónde puedo conseguirlo?</h3>
+					<p>disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor</p>
+					<a href="#">Leer más <span class="icon-forward"></span></a>
+				</div>
+				<div class="col_2">
+					<img src="imagenes/circulo.png">
+					<h3>¿Dónde puedo conseguirlo?</h3>
+					<p>disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humora</p>
+					<a href="#">Leer más <span class="icon-forward"></span></a>
+				</div>
+
+			</section>
+		</div>
+
+	<footer>
+		<div class="foot_center">
+			<div id="foot_col">
+				<h3>Servicios</h3>
+				<ul>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+
+				</ul>
+			</div>
+
+			<div id="foot_col">
+				<h3>Servicios</h3>
+				<ul>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+				</ul>
+			</div>
+
+			<div id="foot_col">
+				<h3>Servicios</h3>
+				<ul>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+
+				</ul>
+			</div>
+
+			<div id="foot_col">
+				<h3>Servicios</h3>
+				<ul>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+					<li><a href="#">Lorem ipsum</a></li>
+				</ul>
+			</div>
+
+			<div class="legal_center">
+				<div id="legal">
+					<p>Copyright © 2020 SwitchOn, Inc. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/controlador.js"></script>
+	<script src="js/canvas.js"></script>
+</body>
+</html>
